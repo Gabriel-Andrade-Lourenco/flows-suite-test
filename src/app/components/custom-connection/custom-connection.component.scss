@@ -1,0 +1,17 @@
+@use "sass:math";
+@import "../../../vars.scss";
+
+svg {
+    overflow: visible;
+    position: absolute;
+    pointer-events: none;
+
+    path {
+        fill: none;
+        stroke-width: $stroke-width;
+        /* Use a variável */
+        stroke: $stroke-color;
+        /* Use a variável */
+        pointer-events: auto;
+    }
+}

@@ -1,0 +1,18 @@
+@use "sass:math";
+@import "../../../vars.scss";
+
+.socket {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid grey;
+    width: "30px";
+    height: "60px"; // Multiplicação simples funciona diretamente
+    vertical-align: middle;
+    background: #fff;
+    z-index: 10;
+    box-sizing: border-box;
+
+    &:hover {
+        background: #ddd;
+    }
+}
